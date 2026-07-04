@@ -6,6 +6,9 @@
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "start": "node scripts/dev.mjs",
+    "install": "npm --prefix backend ci && npm --prefix frontend ci",
+    "vercel-build": "npm --prefix frontend run build",
     "build": "npm --prefix frontend run build"
   }
 }
+

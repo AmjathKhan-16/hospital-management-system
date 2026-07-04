@@ -1,4 +1,4 @@
-﻿import jwt from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
 import Patient from '../models/Patient.js';
 import { generateOtp, sendOtpEmail } from '../utils/email.js';

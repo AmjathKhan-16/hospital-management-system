@@ -1,4 +1,4 @@
-﻿import express from 'express';
+import express from 'express';
 import { login, register, updateMyPhoto, verifyOtp } from '../controllers/authController.js';
 import { protect } from '../middleware/authMiddleware.js';
 
