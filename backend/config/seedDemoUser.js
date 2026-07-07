@@ -19,6 +19,7 @@ export const seedDemoUser = async () => {
 
   existing.name = DEMO_ADMIN.name;
   existing.password = DEMO_ADMIN.password;
+  existing.markModified('password');
   existing.role = DEMO_ADMIN.role;
   existing.isEmailVerified = true;
   existing.emailOtp = undefined;
